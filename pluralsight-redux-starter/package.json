@@ -1,0 +1,9 @@
+{
+  "name": "pluralsight-redux-starter",
+  "version": "0.0.0",
+  "description": "pluralsight-redux-starter",
+  "main": "server.js",
+  "author": {
+    "name": "strachag"
+  }
+}
