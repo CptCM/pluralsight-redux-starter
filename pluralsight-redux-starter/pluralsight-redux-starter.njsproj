@@ -34,8 +34,12 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="src\index.html" />
+    <Content Include="src\styles\styles.css">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\common\Header.js" />
     <Compile Include="src\index.js" />
     <Compile Include="src\index.test.js" />
     <Compile Include="tools\srcserver.js" />
@@ -45,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
+    <Folder Include="src\common\" />
+    <Folder Include="src\styles\" />
     <Folder Include="tools\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
